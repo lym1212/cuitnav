@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=Gf77O0mjbtlkdjh00s0ObiNyEDgEPrIo"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="cuit.css">
+</head>
+<body>
+	<div id="header">
+		<div id="navi">
+		<ul>
+			<li><a href="index.html"><span>地图</span></a></li>
+			<li><a href="walking.html"><span>路线</span></a></li>
+			<li><a href="allpoint.html"><span>分类</span></a></li>
+		</ul>
+		</div>
+		<div id="search">
+			<div id="searchborder">
+				<form id="searchform">
+					<div class="inputgroup">
+						<div id="placeholder">
+							<i class="fas fa-search"></i>
+						</div>
+						<div>
+							<input id="searchpoi" type="text" placeholder="请输入地点" autocomplete="off">
+						</div>
+						<div class="searchresult"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="walking2">
+			<form>
+				<div id="walkingsearch">
+					<div id="row">
+						<div id="switch">
+							<i class="fas fa-sync"></i>
+						</div>
+						<div id="inputpoi">
+							<div class="inputgroup inputtext">
+								<input id="startpoi" type="text" placeholder="我的位置" value="" autocomplete="off">
+							</div>
+							<div style="position: relative;"><div class="searchresult"></div></div>
+							<div class="inputgroup inputtext">
+								<input id="endpoi" type="text" placeholder="输入终点" value="" autocomplete="off">
+							</div>
+							<div style="position: relative;"><div class="searchresult"></div></div>
+						</div>
+						<div id="btnsearch">搜索</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>	
+	<div id="container"></div>
+	<script type="text/javascript" src="script/addLoadEvent.js"></script>
+	<script type="text/javascript" src="script/loadxml.js"></script>
+	<script type="text/javascript" src="script/nextSibling.js"></script>
+	<script type = "text/javascript" src = "script/cuit.js" ></script>
+	<script type="text/javascript" src="script/addmarker.js"></script>
+	<script type="text/javascript" src="script/inputhint.js"></script>
+	<script type = "text/javascript" src = "script/highlight.js" ></script>
+	<script type = "text/javascript" src = "script/walkingsearch.js"></script>
+	<script type = "text/javascript" src = "script/search.js" ></script>
+</body>
+</html>
+
