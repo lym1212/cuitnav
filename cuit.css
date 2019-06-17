@@ -1,0 +1,217 @@
+html{
+    height:100%
+}    
+body{
+    height:100%;
+    margin:0px;
+    padding:0px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+}
+/*地图*/
+#container{
+	margin:0px;
+    height:100%;
+}
+#header{
+	position: absolute;
+	z-index: 99;
+	width: 100%;
+}
+/*导航div*/
+#navi{
+	position: relative;
+	box-sizing: border-box;
+	height: 52px;
+	background: #add4ec;
+	width: 100%;
+}
+#navi ul{
+	background-color: #96c6ea;
+	list-style: none;
+	width: 100%;
+	height: 51px;
+	margin: 0;
+	display: table;
+	padding: 0;
+	table-layout: fixed;
+}
+#navi li{
+	position: relative;
+	display: table-cell;
+	background-color: #96c6ea;
+	font-size: 20px;
+	text-align: center;
+	line-height: 2.4;
+}
+#navi a{
+	text-decoration: none;
+}
+#navi a:link,
+#navi a:visited,
+#navi a:hover,
+#navi a:active{
+	color: black;
+	background-color: transparent;
+}
+/*搜索框div*/
+#search{
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #96c6ea;
+	width: 100%;
+	height: 52px;
+}
+#searchborder{
+	position: relative;
+	box-sizing: border-box;
+	height: 52px;
+	width: 100%;
+	padding: 9px 15px;
+	background-color: transparent;
+	color: white;
+}
+#searchform{
+	display: block;
+	width: 100%;
+	height: 34px;
+	text-align: center;
+}
+.inputgroup{
+	position: relative;
+	width: 100%;
+}
+#searchpoi{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 34px;
+	padding: 8px;
+	border: 1px solid #D5CECE;
+}
+#placeholder{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 14px;
+	color: #D5CECE;
+}
+#walking{
+	position: relative;
+	width: 100%;
+	height: 104px;
+	background-color: #96c6ea;
+}
+#walking2{
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 104px;
+	background-color: white;
+}
+#walkingsearch{
+	box-sizing: border-box;
+	width: 100%;
+	height: 104px;
+	padding: 0 15px;
+}
+#row{
+	display: -moz-flex;
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	-moz-box-align: center;
+	align-items: center;
+}
+#switch{
+	display: inline-block;
+	box-sizing: border-box;
+	-moz-box-flex: 0;
+	-webkit-flex: 0 0 auto;
+}
+#inputpoi{
+	display: inline-block;
+	box-sizing: border-box;
+	height: 103px;
+	padding: 0 15px;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+}
+#btnsearch{
+	box-sizing: border-box;
+	display: inline-block;
+	height: 31px;
+	width: 56px;
+	text-align: center;
+	-moz-box-flex: 0;
+	-webkit-flex: 0 0 auto;
+	border: 1px #939292 solid;
+	border-radius: 10px;
+	color: #939292;
+	font-size: 19px;
+	background-color: white;
+}
+#startpoi{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 0;
+	display: block;
+}
+.startinput{
+	border-bottom: #d4d4d4 solid 1px;
+}
+#endpoi{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 0;
+	display: block;
+}
+.inputtext{
+	box-sizing: border-box;
+	position: relative;
+	height: 51px;
+}
+#point{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.poilist{
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 25px;
+	padding: 0 15px;
+	margin: 3px 0;
+	text-align: center;
+	border: 1px solid #7E7D7D;
+	border-radius: 10px;
+	font-size: 18px;
+	/*background-color: white;
+	color: black;*/
+}
+.poiselected{
+	background-color: #96c6ea;
+	color: white;
+}
+.pt{
+	position: relative;
+	display: none;
+	width: 100%;
+	height: auto;
+}
+.searchresult{
+	position: absolute;
+	z-index: 99;
+	display: none;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	border: 0.5px solid gray;
+}
+h4{
+	text-align: center;
+	margin: 0;
+	border-bottom: 1px solid #7E7D7D;
+}

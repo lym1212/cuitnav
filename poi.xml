@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<poi>
+<name>第一田径场</name>
+<start>103.99236316844541,30.586844309034745</start>
+<start2>103.99248893121681,30.5852898570308</start2>
+</poi>
+<poi>
+<name>第二田径场</name>
+<start>103.99362079615938,30.588173345532</start>
+<start2>103.99329740617578,30.589533451545524</start2>
+</poi>
+<poi>
+<name>第一篮球场</name>
+<start>103.99234969386276,30.587075531619227</start>
+</poi>
+<poi>
+<name>第二篮球场</name>
+<start>103.99168943931292,30.588225807121393</start>
+<start2>103.99298749077484,30.588493943685904</start2>
+</poi>
+<poi>
+<name>羽毛球场</name>
+<start>103.99193647332817,30.58915845281231</start>
+</poi>
+<poi>
+<name>网球场</name>
+<start>103.9925877448229,30.58913513678051</start>
+</poi>
+<poi>
+<name>排球场</name>
+<start>103.99225986331176,30.58845119732727</start>
+</poi>
+<poi>
+<name>乒乓球场</name>
+<start>103.992506897327,30.589251716882863</start>
+</poi>
+<poi>
+<name>小型足球场</name>
+<start>103.9926506262086,30.588534747010478</start>
+</poi>
+<poi>
+<name>图书馆</name>
+<start>103.99579469549353,30.58720960160212</start>
+</poi>
+<poi>
+<name>体育馆</name>
+<start>103.99580367854863,30.589319721877178</start>
+<start2>103.99468977971625,30.58911764975294</start2>
+</poi>
+<poi>
+<name>行政楼</name>
+<start>103.99824706953576,30.586234189624886</start>
+</poi>
+<poi>
+<name>信息楼</name>
+<start>103.99769910317468,30.587330070122643</start>
+</poi>
+<!-- <poi>
+<name>第一教学楼</name>
+<start></start>
+</poi>
+<poi>
+<name>第二教学楼</name>
+<start></start>
+</poi> -->
+<poi>
+<name>第三教学楼</name>
+<start>103.99441647088261,30.586259201899924</start>
+</poi>
+<!-- <poi>
+<name>第四教学楼</name>
+<start></start>
+</poi> -->
+<!-- <poi>
+<name>第五教学楼(第一实验楼)</name>
+<start></start>
+</poi>
+<poi>
+<name>第六教学楼(第二实验楼)</name>
+<start></start>
+</poi>
+<poi>
+<name>双中心教学楼</name>
+<start></start>
+</poi>
+<poi>
+<name>资环楼</name>
+<start></start>
+</poi> -->
+<poi>
+<name>探测楼</name>
+<start>103.99915054091537,30.589471803897503</start>
+</poi>
+<!-- <poi>
+<name>金工楼</name>
+<start></start>
+</poi>
+<poi>
+<name>气象楼</name>
+<start></start>
+</poi> -->
+<poi>
+<name>一食堂</name>
+<start>103.99171571536526,30.585024571539865</start>
+<star2>103.99138401543954,30.5850061668234</star2>
+<star3>103.99196791402102,30.58481963033965</star3>
+</poi>
+<poi>
+<name>二食堂</name>
+<start>103.9913186643312,30.58731194704879</start>
+<start2>103.99127824058326,30.587210908925947</start2>
+</poi>
+<!-- <poi>
+<name>学生宿舍1栋</name>
+<start></start>
+</poi> -->
+<!-- <poi>
+<name>学生宿舍2栋</name>
+<start></start>
+</poi> -->
+<poi>
+<name>学生宿舍3栋</name>
+<start>103.99105590997235,30.585284169477948</start>
+</poi>
+<poi>
+<name>学生宿舍4栋</name>
+<start>103.99193400360554,30.585302822864353</start>
+</poi>
+<!-- <poi>
+<name>学生宿舍5栋</name>
+<start></start>
+</poi> -->
+<poi>
+<name>学生宿舍6栋</name>
+<start>103.99194298666063,30.585773047188137</start>
+</poi>
+<!-- <poi>
+<name>学生宿舍7栋</name>
+<start></start>
+</poi>
+<poi>
+<name>学生宿舍8栋</name>
+<start></start>
+</poi>
+<poi>
+<name>学生宿舍9栋</name>
+<start></start>
+</poi> -->
+<poi>
+<name>学生宿舍10栋</name>
+<start>103.99196993582594,30.585994557021735</start>
+</poi>
+<!-- <poi>
+<name>学生宿舍11栋</name>
+<start></start>
+</poi> -->
+<poi>
+<name>学生宿舍12栋</name>
+<start>103.99180374930658,30.586686286193398</start>
+</poi>
+<!-- <poi>
+<name>学生宿舍13栋</name>
+<start></start>
+</poi> -->
+<poi>
+<name>学生宿舍14栋</name>
+<start>103.99093239296191,30.58815910866277</start>
+</poi>
+<!-- <poi>
+<name>学生宿舍15栋</name>
+<start></start>
+</poi>
+<poi>
+<name>学生宿舍16栋</name>
+<start></start>
+</poi> -->
+<poi>
+<name>学生宿舍17栋</name>
+<start>103.99096113873688,30.589143825692084</start>
+</poi>
+<!-- <poi>
+<name>学生宿舍18栋</name>
+<start></start>
+</poi>
+<poi>
+<name>学生宿舍19栋</name>
+<start></start>
+</poi>
+<poi>
+<name>学生宿舍20栋</name>
+<start></start>
+</poi> -->
+
+</list>
